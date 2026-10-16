@@ -1,0 +1,198 @@
+/* ==========================================================================
+   CAPA ANIMADA — NR 12 Máquina manipuladora a vácuo
+   1) Do risco à segurança: tom de alerta → verde + frase do slide 30, palavra por palavra
+   2) Conheça a máquina: pontos que pulsam nas peças, com o nome de cada uma
+   O JS (capa-animada.js) cria a camada .qs-fx sobre o mesmo enquadramento da foto.
+   Tamanhos medidos pela TELA (vw/vh), nunca pela foto, para ficar sempre no enquadramento.
+   Para desfazer: remova o <link> e o <script>.
+   ========================================================================== */
+.qs-fx {
+  position: absolute;
+  pointer-events: none;
+  overflow: visible;
+}
+
+/* ── 1) do risco à segurança ── */
+.qs-tint {
+  position: absolute; inset: 0;
+  opacity: 0;
+  background: rgba(190, 25, 35, .32);
+  mix-blend-mode: multiply;
+  transition: opacity 1.1s ease, background-color 1.2s ease;
+}
+.qs-tint.is-risk { opacity: 1; background: rgba(190, 25, 35, .34); }
+.qs-tint.is-safe { opacity: 1; background: rgba(120, 190, 32, .30); mix-blend-mode: soft-light; }
+
+/* a frase fica ancorada na tela (canto inferior direito), sempre dentro do enquadramento */
+.qs-phrase {
+  position: absolute;
+  right: 5vw; bottom: 9vh;
+  z-index: 3;
+  width: max-content; max-width: min(42vw, 560px);
+  padding: .55em 1.1em;
+  text-align: center;
+  background: rgba(42, 0, 8, .66);
+  border: 2px solid #78be20;
+  border-radius: .9em;
+  font: 900 clamp(13px, 1.55vw, 22px)/1.25 "Montserrat", "Open Sans", sans-serif;
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, .5);
+  opacity: 0;
+  transition: opacity .5s ease;
+  pointer-events: none;
+}
+.qs-phrase.is-on { opacity: 1; }
+.qs-phrase span {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(.5em) scale(.9);
+  transition: opacity .35s ease, transform .45s cubic-bezier(.2, 1.4, .4, 1);
+}
+.qs-phrase.is-on span {
+  opacity: 1;
+  transform: none;
+  transition-delay: calc(var(--i) * .2s);
+}
+.qs-phrase .is-key { color: #9be23a; }
+
+/* ── 2) conheça a máquina ── */
+.qs-hot {
+  position: absolute;
+  width: 0; height: 0;
+  padding: 0; border: 0; background: none;
+  font-size: clamp(10px, .9vw, 14px);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .4s ease;
+}
+.qs-hot.is-on { opacity: 1; pointer-events: auto; cursor: pointer; }
+.qs-hot-dot,
+.qs-hot-ring {
+  position: absolute;
+  left: 0; top: 0;
+  width: 1.2em; height: 1.2em;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+.qs-hot-dot {
+  background: #78be20;
+  border: .2em solid #fff;
+  box-shadow: 0 0 .8em rgba(120, 190, 32, .9);
+}
+.qs-hot-ring {
+  border: .18em solid rgba(155, 226, 58, .9);
+  animation: qsHot 1.8s ease-out infinite;
+}
+@keyframes qsHot {
+  0%   { opacity: .9; transform: translate(-50%, -50%) scale(1); }
+  100% { opacity: 0;  transform: translate(-50%, -50%) scale(3.2); }
+}
+.qs-hot-label {
+  position: absolute;
+  white-space: nowrap;
+  padding: .4em .85em;
+  background: #fff;
+  color: #4e0110;
+  border: .16em solid #2e9e4d;
+  border-radius: 99px;
+  font: 800 1em/1.2 "Montserrat", "Open Sans", sans-serif;
+  box-shadow: 0 .4em 1em rgba(26, 0, 6, .35);
+  opacity: 0;
+  transform: scale(.85);
+  transition: opacity .3s ease, transform .35s cubic-bezier(.2, 1.4, .4, 1);
+  pointer-events: none;
+}
+.qs-hot-right .qs-hot-label { left: 1.4em; top: 0; translate: 0 -50%; }
+.qs-hot-left  .qs-hot-label { right: 1.4em; top: 0; translate: 0 -50%; }
+.qs-hot-down  .qs-hot-label { left: 0; top: 1.5em; translate: -50% 0; }
+.qs-hot.is-show .qs-hot-label,
+.qs-hot:hover .qs-hot-label,
+.qs-hot:focus-visible .qs-hot-label { opacity: 1; transform: none; }
+
+@media (max-width: 760px) {
+  .qs-phrase { right: 3vw; left: 3vw; bottom: 5vh; max-width: none; font-size: clamp(12px, 3.2vw, 18px); }
+  .qs-hot { font-size: clamp(9px, 2.2vw, 12px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .qs-hot-ring { animation: none; }
+  .qs-tint, .qs-phrase { display: none; }
+}
+
+/* ── balão de fala da personagem (preso à cabeça, em % da foto; tamanhos pela tela) ── */
+.qs-bubble {
+  position: absolute;
+  right: 15.5%; bottom: 77.5%;
+  z-index: 4;
+  width: max-content; max-width: min(21vw, 300px);
+  padding: .65em 1em;
+  background: #fff;
+  color: #4e0110;
+  border: .18em solid #78be20;
+  border-radius: 1.1em;
+  font: 800 clamp(12px, 1.3vw, 19px)/1.25 "Montserrat", "Open Sans", sans-serif;
+  text-align: center;
+  box-shadow: 0 .5em 1.4em rgba(26, 0, 6, .38);
+  opacity: 0;
+  transform: translateY(.6em) scale(.9);
+  transform-origin: 85% 100%;
+  transition: opacity .35s ease, transform .45s cubic-bezier(.2, 1.4, .4, 1);
+  pointer-events: none;
+}
+.qs-bubble::after {
+  content: '';
+  position: absolute;
+  right: 14%; bottom: -.62em;
+  width: 1em; height: 1em;
+  background: #fff;
+  border-right: .18em solid #78be20;
+  border-bottom: .18em solid #78be20;
+  transform: rotate(45deg);
+  border-bottom-right-radius: .25em;
+}
+.qs-bubble.is-on { opacity: 1; transform: none; }
+.qs-bubble-t span {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(.35em);
+  transition: opacity .3s ease, transform .35s ease;
+}
+.qs-bubble.is-on .qs-bubble-t span { opacity: 1; transform: none; transition-delay: calc(var(--i) * .11s); }
+@media (max-width: 760px) { .qs-bubble { max-width: 38vw; font-size: clamp(10px, 2.6vw, 14px); } }
+@media (prefers-reduced-motion: reduce) { .qs-bubble, .qs-bubble-t span { transition: none; } }
+
+/* EPIs: rótulo com visto, em verde mais forte */
+.qs-hot-epi .qs-hot-label { background: #fff; border-color: #2e9e4d; color: #14532d; }
+.qs-hot-epi .qs-hot-dot { background: #2e9e4d; }
+
+/* balão de fala: menor e um pouco acima, só apontando para a cabeça (sem cobrir o capacete) */
+.qs-bubble {
+  right: 14%; bottom: 80.5%;
+  max-width: min(15vw, 220px);
+  padding: .5em .8em;
+  font-size: clamp(10px, 1.02vw, 15px);
+  border-width: .15em;
+  border-radius: .95em;
+  box-shadow: 0 .4em 1.1em rgba(26, 0, 6, .34);
+}
+.qs-bubble::after { width: .8em; height: .8em; bottom: -.5em; right: 16%; border-width: .15em; }
+@media (max-width: 760px) { .qs-bubble { max-width: 30vw; font-size: clamp(9px, 2.2vw, 12px); } }
+
+/* ── feixe de sensor de segurança (varredura verde) ── */
+.qs-scan {
+  position: absolute; top: 0; bottom: 0; left: -7%; width: 7%;
+  opacity: 0; pointer-events: none; z-index: 2;
+  background: linear-gradient(90deg, rgba(155, 226, 58, 0) 0%, rgba(155, 226, 58, .22) 55%, rgba(205, 255, 120, .75) 96%, rgba(255, 255, 255, .95) 100%);
+  mix-blend-mode: screen;
+}
+.qs-scan::after {
+  content: ''; position: absolute; top: 0; bottom: 0; right: 0; width: .22em;
+  background: #eaffc2; box-shadow: 0 0 1.4em .5em rgba(155, 226, 58, .85), 0 0 3.5em 1em rgba(155, 226, 58, .45);
+}
+.qs-scan.is-sweep { animation: qsScan 3.2s cubic-bezier(.45, .05, .3, 1) forwards; }
+@keyframes qsScan {
+  0%   { left: -7%;  opacity: 0; }
+  10%  { opacity: 1; }
+  90%  { opacity: 1; }
+  100% { left: 104%; opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) { .qs-scan { display: none; } }

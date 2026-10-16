@@ -1,0 +1,60 @@
+Imagens do curso NR 12 - Maquina manipuladora a vacuo (55 arquivos).
+Os arquivos atuais sao PROVISORIOS (fundo claro com "IMAGEM A GERAR"), com a proporcao correta de cada tela.
+Gere cada imagem real com o prompt do roteiro e salve aqui com o MESMO nome para substituir a provisoria.
+As imagens antigas da NR 11 estao em assets/_nr11-referencia (somente referencia de estilo).
+
+capa parabens.png   16:9   Parabéns
+capa.png   16:9   Capa do treinamento NR 12
+capamodulo1.png   16:9   Módulo 1 — Conceitos e a NR 12
+capamodulo2.png   16:9   Módulo 2 — Quando a NR 12 não se aplica
+capamodulo3.png   16:9   Módulo 3 — Conhecendo a manipuladora
+capamodulo4.png   16:9   Módulo 4 — Seus deveres e a Instrução de Trabalho
+capamodulo5.png   16:9   Módulo 5 — Operação segura, passo a passo
+m1p1.png   2:1   Conceito de máquina
+m1p2.png   2:1   Objetivo da NR 12
+m1p3.png   2:1   Conteúdo programático
+m1p4.png   2:1   Anexos da NR 12
+m2p1.png   2:1   Força humana ou animal
+m2p2.png   2:1   Museus, feiras e eventos
+m2p3.png   2:1   Equipamentos estáticos
+m2p4.png   2:1   Eletrodomésticos
+m3p1.png   2:1   Capacidade
+m3p2.png   2:1   Material da ventosa
+m3p3.png   2:1   Acessórios
+m3p4.png   2:1   Item opcional
+m4p1.png   2:1   Proteção removida
+m4p2.png   2:1   Onde achar a IT
+m4p3.png   2:1   Alterar proteções
+m4p4.png   2:1   Formação obrigatória
+m5p1.png   2:1   Verificações iniciais
+m5p2.png   2:1   Distância de segurança
+m5p3.png   2:1   Como ligar
+m5p4.png   2:1   Como soltar a carga
+m5p5.png   2:1   Falha da máquina
+p11-1.png   4:5   Elevação e suspensão
+p11-2.png   4:5   Sucção
+p11-3.png   4:5   Bomba e energia
+p12-1.png   3:2   Movtek
+p13-1.png   3:2   Alsanner
+p14-1.png   4:5   Procedimentos seguros
+p14-2.png   4:5   Não alterar proteções
+p14-3.png   4:5   Comunicar o superior
+p14-4.png   4:5   Participar dos treinamentos
+p14-5.png   4:5   Colaborar com o empregador
+p14-6.png   4:5   Formação obrigatória
+p15.png   1:1   Portal 3PIR
+p16.png   1:1   Pesquisar
+p17.png   1:1   Abrir o documento
+p18.png   1:1   Passo a passo
+p19-faixa.png   3:1   Antes de operar: passos 1 a 5
+p24-faixa.png   3:1   Operar a máquina: passos 6 a 10
+p28-faixa.png   3:1   Passo 11 e recomendações de segurança
+p4-faixa.png   3:1   Sobre a NR 12
+p6-1.png   3:2   Charretes e arados
+p6-2.png   3:2   Paleteiras manuais
+p8-1.png   4:5   b) Museus, feiras e eventos
+p8-2.png   4:5   c) Eletrodomésticos
+p9-1.png   1:1   Auto-Forno
+p9-2.png   1:1   Caldeiras
+p9-3.png   1:1   Tanques
+p9-4.png   1:1   Tubulações sobre pressão
