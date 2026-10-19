@@ -22,6 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      # Requer Settings → Pages → Source = "GitHub Actions" (uma vez).
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
