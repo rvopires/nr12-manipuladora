@@ -277,24 +277,38 @@
       });
   }
 
-  function speakCurrent() {
+  function startPlayback() {
+    if (CONFIG.mode === 'live') {
+      speakWithElevenLabs(getCurrentNarrationText());
+    } else {
+      playPageAudio(getPageKey());
+    }
+  }
+
+  /**
+   * @param {{ immediate?: boolean }} [opts]
+   * immediate: true no clique (sem setTimeout — o navegador bloqueia play() fora do gesto).
+   * false/omitido: troca de página com debounce.
+   */
+  function speakCurrent(opts) {
+    opts = opts || {};
     clearTimeout(state.timer);
     state.timer = null;
     if (!isEnabled()) return;
     setSpeaking(true);
+    if (opts.immediate) {
+      startPlayback();
+      return;
+    }
     state.timer = setTimeout(function () {
       state.timer = null;
-      if (CONFIG.mode === 'live') {
-        speakWithElevenLabs(getCurrentNarrationText());
-      } else {
-        playPageAudio(getPageKey());
-      }
+      startPlayback();
     }, CONFIG.debounceMs);
   }
 
   function replay() {
     stopSpeech();
-    speakCurrent();
+    speakCurrent({ immediate: true });
   }
 
   function setAuto(on) {

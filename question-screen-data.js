@@ -37,7 +37,7 @@ window.QUESTION_SCREEN_SESSION = {
           "type": "cover",
           "title": "Módulo 1 — Conceitos e a NR 12",
           "subtitle": "O conteúdo programático da capacitação, o que é uma máquina e a manipuladora a vácuo, a NR 12 e os seus anexos.",
-          "transcript": "Módulo 1: Conceitos e a NR 12.",
+          "transcript": "Módulo 1, Conceitos e a NR 12. O conteúdo programático da capacitação, o que é uma máquina e a manipuladora a vácuo, a NR 12 e os seus anexos. Na imagem: Capa do Módulo 1: conceitos e a NR 12.",
           "image": "assets/fotos/capamodulo1.png",
           "imageAlt": "Capa do Módulo 1: conceitos e a NR 12"
         },
@@ -50,7 +50,9 @@ window.QUESTION_SCREEN_SESSION = {
           "scene": "Abertura do treinamento com cenas da manipuladora a vácuo no armazém",
           "brief": "Armazém com o manipulador a vácuo; operador movendo sacaria com postura correta; escudo da NR 12; caminho dos cinco módulos.",
           "body": "A máquina manipuladora a vácuo transporta e manipula sacaria de forma ergonômica. A NR 12 trata da segurança do trabalho em máquinas e equipamentos.",
-          "transcript": "Vídeo de abertura: a NR 12 e a máquina manipuladora a vácuo."
+          "transcript": "Vídeo. A NR 12 e a manipuladora a vácuo.",
+          "embed": "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=cd9fabf3-d20a-4638-8fab-4ccb80991ee6",
+          "playerId": "panda-cd9fabf3-d20a-4638-8fab-4ccb80991ee6"
         },
         {
           "id": "m1-v-conteudo",
@@ -61,7 +63,9 @@ window.QUESTION_SCREEN_SESSION = {
           "scene": "Os tópicos do Anexo II da NR 12 em sequência: riscos, proteções, o que fazer com proteção danificada, método de trabalho e bloqueio da máquina.",
           "brief": "Pixar 3D para comportamentos e ícones verdes para as ideias; locução calma.",
           "body": "A capacitação em NR 12 segue o conteúdo programático do Anexo II da norma. Ele começa pelos conceitos de máquina e da NR 12.",
-          "transcript": "Vídeo: O que a capacitação ensina."
+          "transcript": "Vídeo. O que a capacitação ensina.",
+          "embed": "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=8a47d5ce-272c-4a18-9181-0b04593f0599",
+          "playerId": "panda-8a47d5ce-272c-4a18-9181-0b04593f0599"
         },
         {
           "id": "m1-programatico",
@@ -91,7 +95,7 @@ window.QUESTION_SCREEN_SESSION = {
               "body": "Permissão de trabalho e sistema de bloqueio de funcionamento da máquina durante inspeção, limpeza, lubrificação e manutenção."
             }
           ],
-          "transcript": "Conteúdo programático da capacitação, Anexo II da NR 12: riscos e proteções; funcionamento das proteções; como e em que circunstâncias uma proteção pode ser removida, e por quem; o que fazer se uma proteção foi danificada; princípios de segurança; riscos mecânicos, elétricos e outros; método de trabalho seguro; permissão de trabalho; e bloqueio de funcionamento da máquina durante inspeção, limpeza, lubrificação e manutenção."
+          "transcript": "Conteúdo programático da capacitação. Riscos e proteções: Os riscos de cada máquina e as proteções específicas contra cada um deles. Como e por que as proteções devem ser usadas. Remover ou danificar: Como e em que circunstâncias uma proteção pode ser removida, e por quem. O que fazer, por exemplo, contatar o supervisor, se uma proteção foi danificada ou perdeu sua função. Segurança na utilização: Princípios de segurança, segurança para riscos mecânicos, elétricos e outros relevantes, e método de trabalho seguro. Permissão e bloqueio: Permissão de trabalho e sistema de bloqueio de funcionamento da máquina durante inspeção, limpeza, lubrificação e manutenção."
         },
         {
           "id": "m1-v-conceitos",
@@ -102,7 +106,9 @@ window.QUESTION_SCREEN_SESSION = {
           "scene": "O conceito de máquina e a manipuladora a vácuo em uso: sistema fechado, unidade de controle e ventosa.",
           "brief": "Foto cinematográfica real do equipamento; sem personagem.",
           "body": "Uma máquina é um dispositivo artificial que utiliza a conversão de energia para atingir objetivos predeterminados. A máquina manipuladora a vácuo, também conhecida como máquina de sucção ou manipulador de sacaria a vácuo, é uma máquina pneumática.",
-          "transcript": "Vídeo: O que é a manipuladora a vácuo."
+          "transcript": "Vídeo. O que é a manipuladora a vácuo.",
+          "embed": "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=f37c071b-3009-4466-8f63-2a9ea0381884",
+          "playerId": "panda-f37c071b-3009-4466-8f63-2a9ea0381884"
         },
         {
           "id": "m1-conceitos",
@@ -137,7 +143,7 @@ window.QUESTION_SCREEN_SESSION = {
               "body": "Bomba de vácuo, mangueira de ar, tubo e terminal de sucção, com válvula de retenção e unidade de controle com alavanca de operação e ventosa."
             }
           ],
-          "transcript": "Máquina é um dispositivo artificial que utiliza a conversão de energia. A manipuladora a vácuo é uma máquina pneumática para transporte e manipulação de sacarias de forma ergonômica, com um sistema fechado de bomba de vácuo, mangueira de ar, tubo e terminal de sucção."
+          "transcript": "O que é uma máquina e a manipuladora a vácuo. Máquina: Dispositivo artificial que utiliza a conversão de energia para atingir objetivos predeterminados. Na imagem: Serra de esquadria elétrica. Manipuladora a vácuo: Também chamada de máquina de sucção ou manipulador de sacaria a vácuo. Máquina pneumática para transporte e manipulação de sacarias de forma ergonômica. Na imagem: Máquina manipuladora a vácuo suspendendo um saco. Sistema fechado: Bomba de vácuo, mangueira de ar, tubo e terminal de sucção, com válvula de retenção e unidade de controle com alavanca de operação e ventosa. Na imagem: Peças do sistema fechado da manipuladora."
         },
         {
           "id": "m1-sobre-nr12",
@@ -179,7 +185,7 @@ window.QUESTION_SCREEN_SESSION = {
               "body": "Vale em todas, sem prejuízo das demais NRs"
             }
           ],
-          "transcript": "Sobre a NR 12: norma do Ministério do Trabalho e Emprego que trata da segurança do trabalho em máquinas e equipamentos, com requisitos mínimos de prevenção nas fases de projeto e de utilização, e ainda à fabricação, importação, comercialização, exposição e cessão a qualquer título, em todas as atividades econômicas."
+          "transcript": "Sobre a NR 12. Norma do MTE: Segurança do Trabalho em Máquinas e Equipamentos. Referências técnicas: Princípios fundamentais e medidas de proteção, com os anexos. Saúde e integridade: Resguarda os trabalhadores, com requisitos mínimos de prevenção. Projeto e utilização: Também fabricação, importação, comercialização, exposição e cessão. Atividades econômicas: Vale em todas, sem prejuízo das demais NRs."
         },
         {
           "id": "m1-sobre-nr12-2",
@@ -204,7 +210,7 @@ window.QUESTION_SCREEN_SESSION = {
               "body": "Na ausência ou omissão destas, opcionalmente, as normas Europeias tipo “C” harmonizadas."
             }
           ],
-          "transcript": "A NR 12 vale sem prejuízo das demais NRs da Portaria 3.214 de 1978, das normas técnicas oficiais ou internacionais aplicáveis e, na ausência destas, opcionalmente, das normas Europeias tipo C harmonizadas."
+          "transcript": "A NR 12 e as outras normas. Demais NRs: Sem prejuízo das demais NRs aprovadas pela Portaria MTb n.º 3.214, de 8 de junho de 1978. Normas técnicas: Normas técnicas oficiais ou normas internacionais aplicáveis. Normas Europeias: Na ausência ou omissão destas, opcionalmente, as normas Europeias tipo “C” harmonizadas."
         },
         {
           "id": "m1-anexos",
@@ -239,7 +245,7 @@ window.QUESTION_SCREEN_SESSION = {
               "imageAlt": "Injetora de plástico, trator agrícola e plataforma elevatória"
             }
           ],
-          "transcript": "Os anexos da NR 12, do Anexo I ao Anexo XII. O Anexo II é o conteúdo programático da capacitação."
+          "transcript": "Os anexos da NR 12. Anexos I a IV: I: detectores de presença optoeletrônicos. II: conteúdo programático da capacitação. III: meios de acesso a máquinas e equipamentos. IV: glossário. Na imagem: Cortina de luz, escada de acesso e livro de glossário. Anexos V a VIII: V: motosserras. VI: panificação e confeitaria. VII: açougue, mercearia, bares e restaurantes. VIII: prensas e similares. Na imagem: Motosserra, prensa pequena e masseira de padaria. Anexos IX a XII: IX: injetora de materiais plásticos. X: calçados e afins. XI: uso agrícola e florestal. XII: equipamentos de guindar para elevação de pessoas e trabalho em altura. Na imagem: Injetora de plástico, trator agrícola e plataforma elevatória."
         },
         {
           "id": "m1-quiz-intro",
@@ -249,7 +255,7 @@ window.QUESTION_SCREEN_SESSION = {
           "minCorrect": 3,
           "icon": "📘",
           "body": "4 perguntas cronometradas sobre os conceitos e a NR 12. Mínimo de <strong>3 acertos</strong> para avançar.",
-          "transcript": "Desafio do módulo 1: Primeira norma."
+          "transcript": "Desafio, Primeira norma. 4 perguntas cronometradas sobre os conceitos e a NR 12. Mínimo de 3 acertos para avançar."
         },
         {
           "id": "m1-q1",
@@ -274,7 +280,7 @@ window.QUESTION_SCREEN_SESSION = {
           ],
           "explanation": "Máquina é um dispositivo artificial que utiliza a conversão de energia para atingir objetivos predeterminados.",
           "review": "Conceito de máquina",
-          "transcript": "Segundo o treinamento, o que é uma máquina?",
+          "transcript": "Segundo o treinamento, o que é uma máquina? Opção 1: Somente um equipamento ligado na tomada. Opção 2: Qualquer objeto que possa ser levantado por uma pessoa. Opção 3: Um dispositivo artificial que utiliza a conversão de energia para atingir objetivos predeterminados. Na imagem: Ilustração neutra: armazém com várias máquinas ao fundo.",
           "image": "assets/fotos/m1p1.png",
           "imageAlt": "Ilustração neutra: armazém com várias máquinas ao fundo",
           "variant": "cartoes",
@@ -303,7 +309,7 @@ window.QUESTION_SCREEN_SESSION = {
           ],
           "explanation": "A NR 12 trata da Segurança do Trabalho em Máquinas e Equipamentos, desde o projeto e a utilização até a fabricação, a importação e a comercialização.",
           "review": "Objetivo da NR 12",
-          "transcript": "A NR 12 trata de que assunto?",
+          "transcript": "A NR 12 trata de que assunto? Opção 1: Somente da fabricação, sem tratar do uso das máquinas. Opção 2: Apenas das roupas de trabalho. Opção 3: Segurança do trabalho em máquinas e equipamentos. Na imagem: Ilustração neutra: colaborador diante de várias máquinas.",
           "image": "assets/fotos/m1p2.png",
           "imageAlt": "Ilustração neutra: colaborador diante de várias máquinas",
           "variant": "cartoes",
@@ -332,7 +338,7 @@ window.QUESTION_SCREEN_SESSION = {
           ],
           "explanation": "O bloqueio de funcionamento da máquina durante inspeção, limpeza, lubrificação e manutenção é o item i do Anexo II.",
           "review": "Conteúdo programático",
-          "transcript": "Qual destes assuntos faz parte do conteúdo programático da capacitação (Anexo II)?",
+          "transcript": "Qual destes assuntos faz parte do conteúdo programático da capacitação (Anexo II)? Opção 1: Sistema de bloqueio de funcionamento da máquina durante inspeção, limpeza, lubrificação e manutenção. Opção 2: Seleção de fornecedores de sacaria. Opção 3: Cálculo da comissão por venda. Na imagem: Ilustração neutra: sala de treinamento.",
           "image": "assets/fotos/m1p3.png",
           "imageAlt": "Ilustração neutra: sala de treinamento",
           "variant": "cartoes",
@@ -361,7 +367,7 @@ window.QUESTION_SCREEN_SESSION = {
           ],
           "explanation": "O Anexo II é o conteúdo programático da capacitação. O Anexo I trata de detectores de presença e o Anexo IV é o glossário.",
           "review": "Anexos da NR 12",
-          "transcript": "Qual anexo da NR 12 trata do conteúdo programático da capacitação?",
+          "transcript": "Qual anexo da NR 12 trata do conteúdo programático da capacitação? Opção 1: Anexo I. Opção 2: Anexo II. Opção 3: Anexo IV. Na imagem: Ilustração neutra: pasta de documentos sobre uma mesa.",
           "image": "assets/fotos/m1p4.png",
           "imageAlt": "Ilustração neutra: pasta de documentos sobre uma mesa",
           "variant": "cartoes",
@@ -384,7 +390,7 @@ window.QUESTION_SCREEN_SESSION = {
           "type": "cover",
           "title": "Módulo 2 — Quando a NR 12 não se aplica",
           "subtitle": "Força humana ou animal, museus, feiras e eventos, eletrodomésticos e equipamentos estáticos.",
-          "transcript": "Módulo 2: Quando a NR 12 não se aplica.",
+          "transcript": "Módulo 2, Quando a NR 12 não se aplica. Força humana ou animal, museus, feiras e eventos, eletrodomésticos e equipamentos estáticos. Na imagem: Capa do Módulo 2: quando a NR 12 não se aplica.",
           "image": "assets/fotos/capamodulo2.png",
           "imageAlt": "Capa do Módulo 2: quando a NR 12 não se aplica"
         },
@@ -397,7 +403,9 @@ window.QUESTION_SCREEN_SESSION = {
           "scene": "Exemplos reais de equipamentos que ficam fora da NR 12, um por vez",
           "brief": "Charrete e arado; paleteira manual; máquina antiga em museu; eletrodomésticos; tanques e caldeiras.",
           "body": "O item 12.1.4 diz em quais casos a NR 12 não se aplica: força humana ou animal, museus, feiras e eventos, eletrodomésticos e equipamentos estáticos.",
-          "transcript": "Vídeo: os casos em que a NR 12 não se aplica."
+          "transcript": "Vídeo. Os casos em que a NR 12 não se aplica.",
+          "embed": "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=b4f76c6e-2158-458e-9305-3d1f6d6c68bb",
+          "playerId": "panda-b4f76c6e-2158-458e-9305-3d1f6d6c68bb"
         },
         {
           "id": "m2-forca-humana",
@@ -432,7 +440,7 @@ window.QUESTION_SCREEN_SESSION = {
               "text": "a) às máquinas e equipamentos movidos ou impulsionados por força humana ou animal."
             }
           ],
-          "transcript": "Item 12.1.4 a: a NR 12 não se aplica às máquinas e equipamentos movidos ou impulsionados por força humana ou animal. Exemplos: charretes, arados e paleteiras manuais."
+          "transcript": "Força humana ou animal. Charretes e arados: Movidos ou impulsionados por força humana ou animal. Paleteiras manuais: Equipamento movido por força humana. 12.1.4 Esta NR não se aplica: a) às máquinas e equipamentos movidos ou impulsionados por força humana ou animal."
         },
         {
           "id": "m2-museu-eletro",
@@ -467,7 +475,7 @@ window.QUESTION_SCREEN_SESSION = {
               "text": "b) às máquinas expostas em museus, feiras e eventos, desde que haja medidas que garantam a integridade física de visitantes e expositores; c) aos eletrodomésticos."
             }
           ],
-          "transcript": "A NR 12 não se aplica a máquinas expostas em museus, feiras e eventos para fins históricos, desde que a integridade física de visitantes e expositores seja preservada, nem a eletrodomésticos."
+          "transcript": "Museus, feiras, eventos e eletrodomésticos. Museus, feiras e eventos: Para fins históricos ou antiguidades, sem uso produtivo. Eletrodomésticos: Máquinas e equipamentos classificados como eletrodomésticos. 12.1.4 Esta NR não se aplica: b) às máquinas expostas em museus, feiras e eventos, desde que haja medidas que garantam a integridade física de visitantes e expositores; c) aos eletrodomésticos."
         },
         {
           "id": "m2-estaticos-1",
@@ -502,7 +510,7 @@ window.QUESTION_SCREEN_SESSION = {
               "text": "d) aos equipamentos estáticos."
             }
           ],
-          "transcript": "Equipamentos estáticos não estão na NR 12. Exemplos: Auto-Forno e caldeiras."
+          "transcript": "Equipamentos estáticos: Auto-Forno e caldeiras. Auto-Forno: Equipamento estático: fora da NR 12. Caldeiras: Equipamento estático: fora da NR 12. 12.1.4 Esta NR não se aplica: d) aos equipamentos estáticos."
         },
         {
           "id": "m2-estaticos-2",
@@ -537,7 +545,7 @@ window.QUESTION_SCREEN_SESSION = {
               "text": "d) aos equipamentos estáticos."
             }
           ],
-          "transcript": "Equipamentos estáticos não estão na NR 12. Exemplos: tanques e tubulações sobre pressão."
+          "transcript": "Equipamentos estáticos: tanques e tubulações. Tanques: Equipamento estático: fora da NR 12. Tubulações sobre pressão: Equipamento estático: fora da NR 12. 12.1.4 Esta NR não se aplica: d) aos equipamentos estáticos."
         },
         {
           "id": "m2-quiz-intro",
@@ -547,7 +555,7 @@ window.QUESTION_SCREEN_SESSION = {
           "minCorrect": 1,
           "icon": "📏",
           "body": "Ligue cada equipamento ao motivo pelo qual a NR 12 não se aplica a ele. Mínimo de <strong>1 acertos</strong> para avançar.",
-          "transcript": "Desafio do módulo 2: Vale ou não vale."
+          "transcript": "Desafio, Vale ou não vale. Ligue cada equipamento ao motivo pelo qual a NR 12 não se aplica a ele. Mínimo de 1 acertos para avançar."
         },
         {
           "id": "m2-match",
@@ -579,7 +587,7 @@ window.QUESTION_SCREEN_SESSION = {
             }
           ],
           "review": "Casos fora da NR 12",
-          "transcript": "Ligue cada equipamento ao motivo pelo qual a NR 12 não se aplica a ele."
+          "transcript": "Ligue o equipamento ao motivo. Toque em um equipamento e depois no motivo pelo qual ele fica fora da NR 12."
         }
       ]
     },
@@ -598,7 +606,7 @@ window.QUESTION_SCREEN_SESSION = {
           "type": "cover",
           "title": "Módulo 3 — Conhecendo a manipuladora",
           "subtitle": "Capacidade, ventosa, acessórios, componentes principais e os modelos Movtek e Alsanner.",
-          "transcript": "Módulo 3: Conhecendo a manipuladora.",
+          "transcript": "Módulo 3, Conhecendo a manipuladora. Capacidade, ventosa, acessórios, componentes principais e os modelos Movtek e Alsanner. Na imagem: Capa do Módulo 3: conhecendo a manipuladora.",
           "image": "assets/fotos/capamodulo3.png",
           "imageAlt": "Capa do Módulo 3: conhecendo a manipuladora"
         },
@@ -611,7 +619,9 @@ window.QUESTION_SCREEN_SESSION = {
           "scene": "Capacidade, ventosa de silicone, tipos de saco e acessórios",
           "brief": "Ventosa de silicone; sacos de ráfia, papel Kraft e plástico; terminal giratório e engate rápido.",
           "body": "A manipuladora suporta sacos de 60 a 80 kgf, dependendo do modelo, e tem ventosa de silicone. Há acessórios, como o terminal giratório inferior e o engate rápido.",
-          "transcript": "Vídeo: capacidade, ventosa e acessórios da manipuladora."
+          "transcript": "Vídeo. A máquina por dentro e por fora.",
+          "embed": "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=6f936bcb-b632-4ad2-8108-6220648191ef",
+          "playerId": "panda-6f936bcb-b632-4ad2-8108-6220648191ef"
         },
         {
           "id": "m3-caracteristicas",
@@ -649,7 +659,7 @@ window.QUESTION_SCREEN_SESSION = {
               "imageAlt": "Terminal giratório inferior e engate rápido"
             }
           ],
-          "transcript": "Características: capacidade de sessenta a oitenta quilogramas-força, ventosa em silicone, vários tipos de saco e acessórios como o terminal giratório inferior e o engate rápido."
+          "transcript": "Características do equipamento. Capacidade para sacos: De 60 a 80 kgf (dependendo do modelo). Na imagem: Saco de cimento suspenso pela manipuladora, indicando a capacidade. Ventosa em silicone: Perfil esponjoso ou emborrachado tipo saia, que acompanha as deformações dos sacos. Na imagem: Ventosa de silicone com perfil esponjoso tipo saia. Tipos de saco: Ráfia, plástico, papel Kraft, fechados com costura, amarrados e outros. Na imagem: Sacos de ráfia, de plástico e de papel Kraft. Acessórios: Terminais giratório inferior e engate rápido. Na imagem: Terminal giratório inferior e engate rápido."
         },
         {
           "id": "m3-avisos",
@@ -669,7 +679,7 @@ window.QUESTION_SCREEN_SESSION = {
               "text": "podem ser usados para facilitar a utilização do manipulador."
             }
           ],
-          "transcript": "A capacidade depende do modelo. Os equipamentos podem usar acessórios para facilitar a utilização."
+          "transcript": "Dois pontos de atenção. Capacidade: de 60 a 80 kgf, dependendo do modelo. Acessórios: podem ser usados para facilitar a utilização do manipulador."
         },
         {
           "id": "m3-v-componentes",
@@ -680,7 +690,9 @@ window.QUESTION_SCREEN_SESSION = {
           "scene": "Os três grupos de peças do esquema: elevação e suspensão, sucção, e bomba e energia.",
           "brief": "Esquemas técnicos verdes com rótulos exatos; sem personagem.",
           "body": "Veja os componentes principais da manipuladora. Na parte de elevação e suspensão, estão a sapata deslizante, o trole de aço para equipamento, a talha elétrica e a mangueira de sucção.",
-          "transcript": "Vídeo: Os componentes principais."
+          "transcript": "Vídeo. Os componentes principais.",
+          "embed": "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=51ea8dac-1952-42f5-a902-463a57145ae6",
+          "playerId": "panda-51ea8dac-1952-42f5-a902-463a57145ae6"
         },
         {
           "id": "m3-componentes",
@@ -715,7 +727,7 @@ window.QUESTION_SCREEN_SESSION = {
               "body": "Filtro, conector roscado 2\", válvula reguladora, painel elétrico, abafador de ruído, proteção acústica e bomba de vácuo."
             }
           ],
-          "transcript": "Componentes principais: elevação e suspensão, sucção, e bomba e energia. Dezesseis peças no total."
+          "transcript": "Componentes principais da manipuladora. Elevação e suspensão: Sapata deslizante, trole de aço para equipamento, talha elétrica e mangueira de sucção. Na imagem: Sapata, trole, talha elétrica e mangueira de sucção. Sucção: Cabeçote VB, vacuômetro, engate rápido, giratório inferior (opcional) e terminal de sucção. Na imagem: Cabeçote, vacuômetro, engate rápido, giratório inferior e terminal de sucção. Bomba e energia: Filtro, conector roscado 2\", válvula reguladora, painel elétrico, abafador de ruído, proteção acústica e bomba de vácuo. Na imagem: Bomba de vácuo, filtro, painel elétrico e abafador de ruído."
         },
         {
           "id": "m3-v-modelos",
@@ -726,7 +738,9 @@ window.QUESTION_SCREEN_SESSION = {
           "scene": "As duas marcas da manipuladora a vácuo, uma de cada vez.",
           "brief": "Foto cinematográfica real dos equipamentos; sem personagem.",
           "body": "O treinamento apresenta duas marcas de máquina manipuladora a vácuo: a Movtek e a Alsanner. Observe o equipamento de cada uma.",
-          "transcript": "Vídeo: Os modelos Movtek e Alsanner."
+          "transcript": "Vídeo. Os modelos Movtek e Alsanner.",
+          "embed": "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=2fcf2254-4a56-4807-b037-d2861241b991",
+          "playerId": "panda-2fcf2254-4a56-4807-b037-d2861241b991"
         },
         {
           "id": "m3-modelos",
@@ -756,7 +770,7 @@ window.QUESTION_SCREEN_SESSION = {
               "imageAlt": "Manipuladora Movtek laranja junto de sacos de cimento empilhados"
             }
           ],
-          "transcript": "Máquina manipuladora a vácuo, marca Movtek."
+          "transcript": "Máquina manipuladora a vácuo: marca Movtek. Na imagem: Cabeçote de sucção laranja sobre um saco de papel. Na imagem: Operador conduzindo um saco com a manipuladora Movtek. Na imagem: Manipuladora Movtek amarela com tubo laranja ao lado de sacos no palete. Na imagem: Operador com a manipuladora Movtek junto de sacos no palete. Na imagem: Manipuladora Movtek laranja junto de sacos de cimento empilhados."
         },
         {
           "id": "m3-modelo-alsanner",
@@ -778,7 +792,7 @@ window.QUESTION_SCREEN_SESSION = {
               "imageAlt": "Manipuladora Alsanner com tubo vermelho em um galpão"
             }
           ],
-          "transcript": "Máquina manipuladora a vácuo, marca Alsanner."
+          "transcript": "Máquina manipuladora a vácuo: marca Alsanner. Na imagem: Manipuladora Alsanner amarela junto de pilhas de sacos. Na imagem: Cabeçote da Alsanner com alças, tubo preto e ventosa sobre um saco. Na imagem: Manipuladora Alsanner com tubo vermelho em um galpão."
         },
         {
           "id": "m3-quiz-intro",
@@ -788,7 +802,7 @@ window.QUESTION_SCREEN_SESSION = {
           "minCorrect": 1,
           "icon": "🌬️",
           "body": "Complete a frase com as palavras certas, como o treinamento apresenta a máquina. Mínimo de <strong>1 acertos</strong> para avançar.",
-          "transcript": "Desafio do módulo 3: Conheça a máquina."
+          "transcript": "Desafio, Conheça a máquina. Complete a frase com as palavras certas, como o treinamento apresenta a máquina. Mínimo de 1 acertos para avançar."
         },
         {
           "id": "m3-fill",
@@ -803,7 +817,7 @@ window.QUESTION_SCREEN_SESSION = {
             "superior"
           ],
           "review": "Capacidade, ventosa e acessórios",
-          "transcript": "Complete a frase sobre a capacidade, a ventosa e os acessórios da manipuladora."
+          "transcript": "Complete a frase. Toque nas palavras de baixo para preencher as lacunas, na ordem."
         }
       ]
     },
@@ -822,7 +836,7 @@ window.QUESTION_SCREEN_SESSION = {
           "type": "cover",
           "title": "Módulo 4 — Seus deveres e a Instrução de Trabalho",
           "subtitle": "O que cabe ao trabalhador pela NR 12 e como acessar a Instrução de Trabalho.",
-          "transcript": "Módulo 4: Seus deveres e a Instrução de Trabalho.",
+          "transcript": "Módulo 4, Seus deveres e a Instrução de Trabalho. O que cabe ao trabalhador pela NR 12 e como acessar a Instrução de Trabalho. Na imagem: Capa do Módulo 4: deveres e Instrução de Trabalho.",
           "image": "assets/fotos/capamodulo4.png",
           "imageAlt": "Capa do Módulo 4: deveres e Instrução de Trabalho"
         },
@@ -835,7 +849,9 @@ window.QUESTION_SCREEN_SESSION = {
           "scene": "Os deveres do trabalhador: seguir os procedimentos e comunicar o superior se uma proteção foi removida, danificada ou perdeu a função",
           "brief": "Operador seguindo o procedimento; operador comunicando o superior sobre uma proteção.",
           "body": "Cabe ao trabalhador cumprir os procedimentos, não alterar proteções, comunicar o superior, participar dos treinamentos e colaborar com o empregador. A formação de NR 12 é obrigatória.",
-          "transcript": "Vídeo: o que a NR 12 pede de você."
+          "transcript": "Vídeo. O que a NR 12 pede de você.",
+          "embed": "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=06bc1082-4390-4609-976a-9a8893613305",
+          "playerId": "panda-06bc1082-4390-4609-976a-9a8893613305"
         },
         {
           "id": "m4-deveres",
@@ -888,7 +904,7 @@ window.QUESTION_SCREEN_SESSION = {
               "imageAlt": "Colaborador em frente à manipuladora a vácuo"
             }
           ],
-          "transcript": "O que cabe aos trabalhadores: cumprir os procedimentos seguros, não alterar proteções, comunicar o superior, participar dos treinamentos e colaborar com o empregador. A formação de NR 12 é obrigatória para usar a máquina manipuladora a vácuo."
+          "transcript": "Cabe aos trabalhadores. Procedimentos seguros: Cumprir as orientações de operação, abastecimento, limpeza, manutenção, inspeção, transporte, desativação, desmonte e descarte. Na imagem: Colaborador lendo um procedimento. Não alterar proteções: Nenhuma alteração nas proteções mecânicas ou dispositivos de segurança. Na imagem: Colaborador conferindo uma proteção fixa. Comunicar o superior: Se uma proteção foi removida, danificada ou perdeu sua função. Na imagem: Colaborador falando com o superior. Participar dos treinamentos: Os fornecidos pelo empregador para atender às exigências da NR 12. Na imagem: Colaboradores em treinamento. Colaborar com o empregador: Na implementação das disposições contidas na NR 12. Na imagem: Aperto de mão entre colaboradores. Formação obrigatória: É obrigatória a formação de NR 12 para utilizar a máquina manipuladora a vácuo. Na imagem: Colaborador em frente à manipuladora a vácuo."
         },
         {
           "id": "m4-v-instrucao",
@@ -899,7 +915,9 @@ window.QUESTION_SCREEN_SESSION = {
           "scene": "O caminho no portal: ícone do PORTAL 3PIR, pesquisa, lupinha, Página Inicial de Documentos e o nome da Instrução.",
           "brief": "Ícones verdes minimalistas; sem personagem.",
           "body": "Antes de operar a manipuladora, leia e observe a Instrução de Trabalho. Ela está disponível no PORTAL 3PIR, dentro do ServiceNow.",
-          "transcript": "Vídeo: Como acessar a Instrução de Trabalho."
+          "transcript": "Vídeo. Como acessar a Instrução de Trabalho.",
+          "embed": "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=e7f3792f-69f1-4baf-a656-010995fbb9fa",
+          "playerId": "panda-e7f3792f-69f1-4baf-a656-010995fbb9fa"
         },
         {
           "id": "m4-instrucao",
@@ -937,7 +955,7 @@ window.QUESTION_SCREEN_SESSION = {
               "text": "Dentro dela está a descrição das operações, com o passo a passo para operação segura do equipamento."
             }
           ],
-          "transcript": "Como acessar a Instrução de Trabalho: PORTAL 3PIR no ServiceNow, pesquisar manipuladora, abrir o documento e seguir o passo a passo."
+          "transcript": "Como acessar a Instrução de Trabalho. Portal 3PIR: Antes de operar, ler a Instrução de Trabalho disponível no PORTAL 3PIR, dentro do ServiceNow. Pesquisar: Pesquisar por “manipuladora”, escolher a Instrução de Trabalho da Máquina Manipuladora de Sacaria a Vácuo e clicar na lupinha. Abrir o documento: Na Página Inicial de Documentos, clicar no nome da Instrução de Trabalho Manipuladora de Sacaria a Vácuo. Passo a passo: Dentro dela está a descrição das operações, com o passo a passo para operação segura do equipamento."
         },
         {
           "id": "m4-quiz-intro",
@@ -947,7 +965,7 @@ window.QUESTION_SCREEN_SESSION = {
           "minCorrect": 1,
           "icon": "📋",
           "body": "Classifique cada atitude: é o que o trabalhador deve ou não deve fazer. Mínimo de <strong>1 acertos</strong> para avançar.",
-          "transcript": "Desafio do módulo 4: Dever e documento."
+          "transcript": "Desafio, Dever e documento. Classifique cada atitude: é o que o trabalhador deve ou não deve fazer. Mínimo de 1 acertos para avançar."
         },
         {
           "id": "m4-sort",
@@ -999,7 +1017,7 @@ window.QUESTION_SCREEN_SESSION = {
             }
           ],
           "review": "Deveres do trabalhador",
-          "transcript": "Classifique cada atitude entre o que o trabalhador deve e o que não deve fazer."
+          "transcript": "Deve ou não deve?. Um cartão por vez: escolha o grupo certo."
         }
       ]
     },
@@ -1018,7 +1036,7 @@ window.QUESTION_SCREEN_SESSION = {
           "type": "cover",
           "title": "Módulo 5 — Operação segura, passo a passo",
           "subtitle": "Os 11 passos da Instrução de Trabalho, as recomendações de segurança e o fechamento do treinamento.",
-          "transcript": "Módulo 5: Operação segura, passo a passo.",
+          "transcript": "Módulo 5, Operação segura, passo a passo. Os 11 passos da Instrução de Trabalho, as recomendações de segurança e o fechamento do treinamento. Na imagem: Capa do Módulo 5: operação segura passo a passo.",
           "image": "assets/fotos/capamodulo5.png",
           "imageAlt": "Capa do Módulo 5: operação segura passo a passo"
         },
@@ -1031,7 +1049,9 @@ window.QUESTION_SCREEN_SESSION = {
           "scene": "Colaborador sem adornos, com luva tricotada e botina, local limpo, área isolada e sinalizada e a conferência da máquina e do filtro.",
           "brief": "Pixar 3D para comportamentos; foto real quando mostra o equipamento.",
           "body": "Primeiro passo: é proibida a utilização de adornos. Segundo: use os EPIs antes do início das atividades, como luva tricotada e calçado de segurança, tipo botina.",
-          "transcript": "Vídeo: Antes de operar: passos 1 a 5."
+          "transcript": "Vídeo. Antes de operar: passos 1 a 5.",
+          "embed": "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=c1003baa-87f4-46c3-861a-227e120cd8b1",
+          "playerId": "panda-c1003baa-87f4-46c3-861a-227e120cd8b1"
         },
         {
           "id": "m5-passos-1-5",
@@ -1077,7 +1097,7 @@ window.QUESTION_SCREEN_SESSION = {
               "imageAlt": "Colaborador verificando a máquina e o filtro"
             }
           ],
-          "transcript": "Passos um a cinco: sem adornos, usar os EPIs, local limpo e organizado, área isolada e sinalizada com distância mínima de um metro e meio, e verificar se a máquina funciona corretamente e se o filtro está limpo."
+          "transcript": "Antes de operar: passos 1 a 5. Passo 1 Sem adornos: É proibida a utilização de adornos. Na imagem: Colaboradora guardando relógio e anel antes de operar. Passo 2 EPIs: Usar luva tricotada e calçado de segurança, tipo botina, antes do início das atividades. Na imagem: Colaborador mostrando luva tricotada e botina. Passo 3 Local limpo: Manter o local sempre limpo e organizado. Na imagem: Colaborador varrendo e organizando a área da manipuladora. Passo 4 Área isolada: Deixar a área isolada e sinalizada, com distância de segurança mínima de 1,5 m no perímetro do manipulador. Na imagem: Área da manipuladora isolada com cones e fita. Passo 5 Verificar: Verificar sempre se a máquina funciona de forma correta e se o filtro está limpo. Na imagem: Colaborador verificando a máquina e o filtro."
         },
         {
           "id": "m5-v-passos-6-10",
@@ -1088,7 +1108,9 @@ window.QUESTION_SCREEN_SESSION = {
           "scene": "Botoeira de liga e desliga, puxar o tubo, ativar o vácuo na alavanca, levar a carga e soltar a sacaria.",
           "brief": "Foto cinematográfica real do operador fazendo o certo.",
           "body": "Sexto passo: ligue a máquina apertando a botoeira de liga e desliga da unidade de acionamento. Sétimo: puxe o tubo para levantamento do manipulador até a sacaria.",
-          "transcript": "Vídeo: Operar a máquina: passos 6 a 10."
+          "transcript": "Vídeo. Operar a máquina: passos 6 a 10.",
+          "embed": "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=77acc523-d3e0-45c9-b524-8d109e5d6219",
+          "playerId": "panda-77acc523-d3e0-45c9-b524-8d109e5d6219"
         },
         {
           "id": "m5-passos-6-10",
@@ -1134,7 +1156,7 @@ window.QUESTION_SCREEN_SESSION = {
               "imageAlt": "Colaborador soltando o saco com a válvula da alça de comando"
             }
           ],
-          "transcript": "Passos seis a dez: ligar pela botoeira, puxar o tubo até a sacaria, segurar a carga com as ventosas e a alavanca, levar a carga com cuidado e soltar a sacaria desativando a válvula de liberação do vácuo na alça de comando."
+          "transcript": "Operar a máquina: passos 6 a 10. Passo 6 Ligar: Ligar a máquina apertando a botoeira de liga e desliga da unidade de acionamento. Na imagem: Colaborador apertando a botoeira de liga e desliga. Passo 7 Puxar o tubo: Puxar o tubo para levantamento do manipulador até a sacaria. Na imagem: Colaborador puxando o tubo laranja até o saco. Passo 8 Segurar a carga: Segurar a carga com as ventosas do terminal giratório e usar a alavanca no braço para ativar a força do vácuo. Na imagem: Colaborador acionando a alavanca com a ventosa sobre o saco. Passo 9 Levar a carga: Levar a carga com cuidado até o carro do cliente ou, se for o caso, à paletização. Na imagem: Colaborador conduzindo o saco suspenso até o carro do cliente. Passo 10 Soltar: Soltar a sacaria desativando a válvula de liberação do vácuo da ventosa, na alça de comando. Na imagem: Colaborador soltando o saco com a válvula da alça de comando."
         },
         {
           "id": "m5-v-extintor",
@@ -1145,7 +1167,9 @@ window.QUESTION_SCREEN_SESSION = {
           "scene": "Extintor de CO2 ao lado da manipuladora e as recomendações: manutenção, falha da máquina, equipamentos de segurança, pessoas capacitadas e inspeções.",
           "brief": "Foto real para o extintor; Pixar 3D para comportamentos; ícones verdes para ideias.",
           "body": "Décimo primeiro passo: disponibilize um extintor contra incêndio, de CO2, próximo ao equipamento. E estas são as demais recomendações de segurança.",
-          "transcript": "Vídeo: O extintor e as demais recomendações."
+          "transcript": "Vídeo. O extintor e as demais recomendações.",
+          "embed": "https://player-vz-d35edf2a-8e7.tv.pandavideo.com.br/embed/?v=439da4b9-a8fb-453b-b697-59cb23d59aea",
+          "playerId": "panda-439da4b9-a8fb-453b-b697-59cb23d59aea"
         },
         {
           "id": "m5-passo-11",
@@ -1191,7 +1215,7 @@ window.QUESTION_SCREEN_SESSION = {
               "imageAlt": "Operador capacitado com crachá e outra pessoa atrás da faixa"
             }
           ],
-          "transcript": "Passo onze: extintor de CO2 próximo ao equipamento. Recomendações: manutenção preventiva e inspeções periódicas, não intervir em caso de falha e comunicar o líder, usar equipamentos de segurança e seguir o fabricante, e capacitar os operadores."
+          "transcript": "Passo 11 e recomendações de segurança. Passo 11 Extintor: Disponibilizar um extintor contra incêndio (CO2) próximo ao equipamento. Na imagem: Extintor de CO2 ao lado da manipuladora. Manutenção e inspeção: Realizar manutenções preventivas regularmente, testes e inspeções periódicas. Na imagem: Técnico realizando manutenção preventiva. Em caso de falha: Não faça nenhuma intervenção. Comunique o seu líder para acionar a manutenção corretiva. Na imagem: Colaborador afastado da máquina comunicando o líder. Segurança e fabricante: Utilizar equipamentos de segurança durante a operação e seguir as instruções de uso do fabricante. Na imagem: Colaborador lendo o manual do fabricante. Pessoas capacitadas: Capacitar os operadores e não permitir o uso da máquina por pessoas não autorizadas ou capacitadas. Na imagem: Operador capacitado com crachá e outra pessoa atrás da faixa."
         },
         {
           "id": "m5-quiz-intro",
@@ -1201,7 +1225,7 @@ window.QUESTION_SCREEN_SESSION = {
           "minCorrect": 2,
           "icon": "🛡️",
           "body": "Ordene os passos da Instrução de Trabalho: primeiro antes de operar, depois operando a máquina. Mínimo de <strong>2 acertos</strong> para avançar.",
-          "transcript": "Desafio do módulo 5: Passo a passo seguro."
+          "transcript": "Desafio, Passo a passo seguro. Ordene os passos da Instrução de Trabalho: primeiro antes de operar, depois operando a máquina. Mínimo de 2 acertos para avançar."
         },
         {
           "id": "m5-order-1",
@@ -1237,7 +1261,7 @@ window.QUESTION_SCREEN_SESSION = {
             }
           ],
           "review": "Passos 1 a 5",
-          "transcript": "Ordene os passos 1 a 5 antes de operar a manipuladora."
+          "transcript": "Ordene: antes de operar. Toque nos passos 1 a 5 na ordem da Instrução de Trabalho."
         },
         {
           "id": "m5-order-2",
@@ -1273,7 +1297,7 @@ window.QUESTION_SCREEN_SESSION = {
             }
           ],
           "review": "Passos 6 a 10",
-          "transcript": "Ordene os passos 6 a 10 para operar a manipuladora."
+          "transcript": "Ordene: operando a máquina. Toque nos passos 6 a 10 na ordem da Instrução de Trabalho."
         },
         {
           "id": "m5-finale",
@@ -1290,7 +1314,7 @@ window.QUESTION_SCREEN_SESSION = {
             "Manipuladora a vácuo",
             "Leroy Merlin"
           ],
-          "transcript": "Parabéns. Você finalizou o NR 12, Máquina manipuladora a vácuo."
+          "transcript": "Certificado de conclusão. Parabéns. Você concluiu o treinamento NR 12 – Máquina manipuladora a vácuo. Sua vida vale mais do que qualquer atalho. Na imagem: Capa de parabéns, conclusão do treinamento."
         }
       ]
     }
